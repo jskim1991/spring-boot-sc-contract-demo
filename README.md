@@ -1,4 +1,4 @@
+HTTP Server and Client
 ```shell
-make server
-make client
+make server client
 ```
