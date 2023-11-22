@@ -1,3 +1,4 @@
+label: user-created-event
 input:
   triggeredBy: createUser()
 outputMessage:

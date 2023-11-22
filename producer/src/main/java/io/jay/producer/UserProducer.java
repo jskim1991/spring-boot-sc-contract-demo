@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class UserProducer {
 
-    private final KafkaTemplate kafkaTemplate;
+    private final KafkaTemplate<?, ?> kafkaTemplate;
     private final ObjectMapper mapper;
 
     @SneakyThrows
