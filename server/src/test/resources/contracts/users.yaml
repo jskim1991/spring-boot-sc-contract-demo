@@ -1,0 +1,14 @@
+request:
+  method: GET
+  url: /users
+response:
+  status: 200
+  bodyFromFile: users-response.json
+  headers:
+    Content-Type: application/json
+  matchers:
+    body:
+      - path: $[0].id
+        type: by_type
+      - path: $[0].name
+        type: by_type
