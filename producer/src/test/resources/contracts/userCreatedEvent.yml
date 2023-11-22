@@ -1,0 +1,8 @@
+input:
+  triggeredBy: createUser()
+outputMessage:
+  sentTo: users
+  body:
+    #eventId: how to check for uuid type?
+    name: Jojo
+    role: user
